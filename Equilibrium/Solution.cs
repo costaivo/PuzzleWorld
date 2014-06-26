@@ -1,25 +1,24 @@
-﻿using System;
-
+﻿
 namespace Equilibrium
 {
+    using System;
+
     public class Solution
     {
+
         public static void Main()
         {
             int[] A = new int[] { -1, 1, 0 };
-            int i = solution(A);
+            int i = GetEquilibriumPosition(A);
 
             Console.WriteLine(i.ToString());
             Console.ReadLine();
 
         }
 
-
-
-
-        public static int optimizedSolution(int[] A)
+        public static int GetEquilibriumPosition(int[] A)
         {
-            if (A.Length == 0)
+            if (A ==null || A.Length == 0)
                 return -1;
 
             long totalSum = 0;
@@ -39,43 +38,6 @@ namespace Equilibrium
         }
 
 
-        public static int solution(int[] A)
-        {
-            if (A.Length == 0)
-                return -1;
-            if (A.Length == 1)
-                return 0;
-
-            long leftSum = 0;
-            for (int i = 0; i < A.Length; i++)
-            {
-                if (i + 1 < A.Length)
-                {
-                    long rigthSum = AddArray(i + 1, A);
-                    if (leftSum == rigthSum)
-                        return i;
-                    leftSum += A[i];
-                }
-
-            }
-            leftSum = AddArray(0, A);
-
-            leftSum -= A[A.Length - 1];
-
-            if (leftSum == 0)
-                return A.Length - 1;
-
-            return -1;
-        }
-
-        public static long AddArray(int startIndex, int[] array)
-        {
-            long sum = 0;
-            for (int i = startIndex; i < array.Length; i++)
-            {
-                sum += array[i];
-            }
-            return sum;
-        }
+       
     }
 }
