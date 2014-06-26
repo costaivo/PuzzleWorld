@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Equilibrium
 {
@@ -17,6 +13,9 @@ namespace Equilibrium
             Console.ReadLine();
 
         }
+
+
+
 
         public static int optimizedSolution(int[] A)
         {
