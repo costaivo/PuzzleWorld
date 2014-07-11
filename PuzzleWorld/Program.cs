@@ -6,18 +6,17 @@ using System.Threading.Tasks;
 
 namespace PuzzleWorld
 {
-    class Program
+   public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            #region Equilibrium Pronlem
+            // Equilibrium Problem
             Console.WriteLine("Equilibrium Problem");
-            int[] A = new int[] { -1, 1, 0 };
-            int i =  Equilibrium.Solution.GetEquilibriumPosition(A);
+            int[] inputArray = new int[] { -1, 1, 0 };
+            int equilibriumPosition = Equilibrium.Solution.GetEquilibriumPosition(inputArray);
 
-            Console.WriteLine(i.ToString());
+            Console.WriteLine(equilibriumPosition.ToString());
             Console.ReadLine();
-            #endregion 
         }
     }
 }
