@@ -9,24 +9,24 @@ namespace PuzzleWorld.Test
         [TestMethod]
         public void Test()
         {
-            int[] A = new int[] { -1, 1, 0 };
-            int i = Equilibrium.Solution.GetEquilibriumPosition(A);
+            int[] inputArray = new int[] { -1, 1, 0 };
+            int i = Equilibrium.Solution.GetEquilibriumPosition(inputArray);
             Assert.AreEqual(i, 2);
         }
 
         [TestMethod]
         public void TestUnInitializedArray()
         {
-            int[] A = null;
-            int i = Equilibrium.Solution.GetEquilibriumPosition(A);
+            int[] inputArray = null;
+            int i = Equilibrium.Solution.GetEquilibriumPosition(inputArray);
             Assert.AreEqual(i, -1);
         }
 
         [TestMethod]
         public void TestEmptyArray()
         {
-            int[] A = new int[0];
-            int i = Equilibrium.Solution.GetEquilibriumPosition(A);
+            int[] inputArray = new int[0];
+            int i = Equilibrium.Solution.GetEquilibriumPosition(inputArray);
             Assert.AreEqual(i, -1);
         }
     }
