@@ -10,7 +10,7 @@ namespace PuzzleWorld.Test
         public void Test()
         {
             int[] A = new int[] { -1, 1, 0 };
-            int i = Equilibrium.Solution.OptimizedSolution(A);
+            int i = Equilibrium.Solution.GetEquilibriumPosition(A);
             Assert.AreEqual(i, 2);
         }
 
@@ -18,7 +18,7 @@ namespace PuzzleWorld.Test
         public void TestUnInitializedArray()
         {
             int[] A = null;
-            int i = Equilibrium.Solution.OptimizedSolution(A);
+            int i = Equilibrium.Solution.GetEquilibriumPosition(A);
             Assert.AreEqual(i, -1);
         }
 
@@ -26,7 +26,7 @@ namespace PuzzleWorld.Test
         public void TestEmptyArray()
         {
             int[] A = new int[0];
-            int i = Equilibrium.Solution.OptimizedSolution(A);
+            int i = Equilibrium.Solution.GetEquilibriumPosition(A);
             Assert.AreEqual(i, -1);
         }
     }

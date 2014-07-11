@@ -53,12 +53,6 @@
     <Compile Include="EquilibriumTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Equilibrium\Equilibrium.csproj">
-      <Project>{73d15c73-eff4-44d0-adac-5b14ac9c4d21}</Project>
-      <Name>Equilibrium</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
