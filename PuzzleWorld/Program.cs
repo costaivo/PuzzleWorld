@@ -7,22 +7,29 @@ using System.Threading.Tasks;
 
 namespace PuzzleWorld
 {
-   public class Program
+    public class Program
     {
         public static void Main(string[] args)
-       {
-           // #region Equilibrium Problem
-           // Console.WriteLine("Equilibrium Problem");
-           // int[] inputArray = new int[] { -1, 1, 0 };
-           // int equilibriumPosition = Equilibrium.Solution.GetEquilibriumPosition(inputArray);
+        {
+            // #region Equilibrium Problem
+            // Console.WriteLine("Equilibrium Problem");
+            // int[] inputArray = new int[] { -1, 1, 0 };
+            // int equilibriumPosition = Equilibrium.Solution.GetEquilibriumPosition(inputArray);
 
-           // Console.WriteLine(equilibriumPosition.ToString());
-           // Console.ReadLine();
-           //#endregion
+            // Console.WriteLine(equilibriumPosition.ToString());
+            // Console.ReadLine();
+            //#endregion
 
 
-            Hackerrank.Algorithms.Warmup.SimpleArraySum.Solution.GetSolution();
-            Console.ReadKey();
-       }
+            //Hackerrank.Algorithms.Warmup.SimpleArraySum.Solution.GetSolution();
+            //Console.ReadKey();
+
+            Hackerrank.Algorithms.Warmup.DiagonalDifference.Solution();
+
+
+            Console.Read();
+        }
+
+
     }
 }

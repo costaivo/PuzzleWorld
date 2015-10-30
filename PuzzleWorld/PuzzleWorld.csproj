@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Equilibrium\Solution.cs" />
+    <Compile Include="Hackerrank\Algorithms\Warmup\DiagonalDifference.cs" />
     <Compile Include="Hackerrank\Algorithms\Warmup\SimpleArraySum\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
