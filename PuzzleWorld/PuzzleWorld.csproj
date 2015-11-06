@@ -44,7 +44,10 @@
   <ItemGroup>
     <Compile Include="Equilibrium\Solution.cs" />
     <Compile Include="Hackerrank\Algorithms\Warmup\DiagonalDifference.cs" />
+    <Compile Include="Hackerrank\Algorithms\Warmup\PlusMinus.cs" />
     <Compile Include="Hackerrank\Algorithms\Warmup\SimpleArraySum\Solution.cs" />
+    <Compile Include="Hackerrank\Algorithms\Warmup\StairCase.cs" />
+    <Compile Include="Hackerrank\Algorithms\Warmup\TimeConversion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

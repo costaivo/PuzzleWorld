@@ -51,5 +51,34 @@ namespace PuzzleWorld.Hackerrank.Algorithms.Warmup
             //}
             //Console.Read();
         }
+
+        private static int ConsoleReadIntValue()
+        {
+            int number;
+            int.TryParse(Console.ReadLine(), out number);
+            return number;
+        }
+        
+        public static void SolutionWithoutArrays()
+        {
+            int arrayLength = ConsoleReadIntValue();
+            long diagonalLeft = 0;
+            long diagonalRight = 0;
+            for (int i = 0; i < arrayLength; i++)
+            {
+                for (int j = 0; j< arrayLength; j++)
+                {
+                    int newNumber = ConsoleReadIntValue();
+                    if (i == j)
+                        diagonalRight += newNumber;
+
+                    if (i + j == (arrayLength - 1))
+                        diagonalLeft += newNumber;
+                }
+            }
+
+            long result = Math.Abs(diagonalRight - diagonalLeft);
+            Console.WriteLine(result.ToString());
+        }
     }
 }

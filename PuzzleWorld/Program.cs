@@ -24,12 +24,28 @@ namespace PuzzleWorld
             //Hackerrank.Algorithms.Warmup.SimpleArraySum.Solution.GetSolution();
             //Console.ReadKey();
 
-            Hackerrank.Algorithms.Warmup.DiagonalDifference.Solution();
+            //Hackerrank.Algorithms.Warmup.DiagonalDifference.Solution();
+
+           // Hackerrank.Algorithms.Warmup.DiagonalDifference.SolutionWithoutArrays();
+
+           // PuzzleWorld.Hackerrank.Algorithms.Warmup.PlusMinus.Solution();\
+
+           // Hackerrank.Algorithms.Warmup.StairCase.Solution();
+          
 
 
             Console.Read();
         }
 
+
+        
+        private static int ReadNumberFromConsole()
+        {
+            var rawData = Console.ReadLine();
+            int number = 0;
+            int.TryParse(rawData, out number);
+            return number;
+        }
 
     }
 }
