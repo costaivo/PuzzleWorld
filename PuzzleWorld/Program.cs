@@ -26,13 +26,18 @@ namespace PuzzleWorld
 
             //Hackerrank.Algorithms.Warmup.DiagonalDifference.Solution();
 
-           // Hackerrank.Algorithms.Warmup.DiagonalDifference.SolutionWithoutArrays();
+            // Hackerrank.Algorithms.Warmup.DiagonalDifference.SolutionWithoutArrays();
 
-           // PuzzleWorld.Hackerrank.Algorithms.Warmup.PlusMinus.Solution();\
+            // PuzzleWorld.Hackerrank.Algorithms.Warmup.PlusMinus.Solution();\
 
-           // Hackerrank.Algorithms.Warmup.StairCase.Solution();
-          
+            // Hackerrank.Algorithms.Warmup.StairCase.Solution();
 
+    
+
+            /* Get the vowel count from a given string */
+            Console.WriteLine("Enter a random string to test for vowel count");
+            int vowelCount = VowelCount.Solution.GetVowelCount(Console.ReadLine());
+            Console.WriteLine("Vowel Count is :" +vowelCount );
 
             Console.Read();
         }
