@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PuzzleWorld.VowelCount;
 
 namespace PuzzleWorld
 {
@@ -36,14 +37,18 @@ namespace PuzzleWorld
 
             /* Get the vowel count from a given string */
             Console.WriteLine("Enter a random string to test for vowel count");
-            int vowelCount = VowelCount.Solution.GetVowelCount(Console.ReadLine());
+            var inputString = Console.ReadLine();
+             int vowelCount = VowelCount.Solution.GetVowelCount(inputString);
+
+            //With ExtensionMethod
+            //int vowelCount = inputString.GetVowelCount();
             Console.WriteLine("Vowel Count is :" +vowelCount );
 
             Console.Read();
         }
 
+   
 
-        
         private static int ReadNumberFromConsole()
         {
             var rawData = Console.ReadLine();

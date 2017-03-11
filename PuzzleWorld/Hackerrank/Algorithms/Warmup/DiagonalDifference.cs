@@ -27,8 +27,19 @@ namespace PuzzleWorld.Hackerrank.Algorithms.Warmup
                     columnCount++;
                 }
             }
+            //Get Diagonal Difference
+            long result = GetDiagonalDifference( squareArray);
+
+            Console.WriteLine(result.ToString());
+
+            Console.Read();
+        }
+
+        public static long GetDiagonalDifference( int[,] squareArray)
+        {
             long diagonalLeft = 0;
             long diagonalRight = 0;
+            int arrayLength = squareArray.GetLength(0) ;
             for (int i = 0; i < arrayLength; i++)
             {
                 diagonalRight += squareArray[i, i];
@@ -38,18 +49,7 @@ namespace PuzzleWorld.Hackerrank.Algorithms.Warmup
             //Console.WriteLine("L " + diagonalLeft);
 
             long result = Math.Abs(diagonalRight - diagonalLeft);
-            Console.WriteLine(result.ToString());
-
-            //Console.WriteLine("Printing Array");
-            //for (int i = 0; i < arrayLength; i++)
-            //{
-            //    Console.WriteLine(" ");
-            //    for (int j = 0; j < arrayLength; j++)
-            //    {
-            //        Console.Write(" " + squareArray[i, j]);
-            //    }
-            //}
-            //Console.Read();
+            return result;
         }
 
         private static int ConsoleReadIntValue()

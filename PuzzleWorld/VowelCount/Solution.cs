@@ -16,6 +16,16 @@ namespace PuzzleWorld.VowelCount
             return str.ToLower().Count(c => "aeiou".IndexOf(c) != -1);
         }
     }
+
+    #region Alternative Solution
+    public static class SolutionWithExtensionMethofs
+    {
+        public static int GetVowelCount(this string str)
+        {
+            return str.ToLower().Count(c => "aeiou".IndexOf(c) != -1);
+        }
+    }
+    #endregion
 }
 
 
