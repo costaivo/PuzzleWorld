@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8a99c039-3529-41d8-b397-38bf7e68604f</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>1_10\Problem_3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
+    <Name>ProjectEuler</Name>
     <RootNamespace>PythonApplication1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -21,7 +22,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1_10\Problem_1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1_10\Problem_2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="1_10\Problem_6.py" />
+    <Compile Include="1_10\Problem_5.py" />
+    <Compile Include="1_10\Problem_4.py" />
+    <Compile Include="1_10\Problem_3.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonApplication1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1-10\" />
+    <Folder Include="1_10\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
