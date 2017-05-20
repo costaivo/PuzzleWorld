@@ -1,3 +1,5 @@
+# This Code Needs to be Optimized
+
 """
 Problem 3 : Largest prime factor
 The prime factors of 13195 are 5, 7, 13 and 29.
@@ -60,6 +62,7 @@ def print_max_prime_factors(n):
         if(n <= 1):
             condition =False
     print ('Done Executing. Max Prime %d' % max_prime)
+
 
 if __name__ =="__main__":
     print_max_prime_factors(600851475143)
