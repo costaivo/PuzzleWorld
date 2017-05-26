@@ -5,7 +5,7 @@
     <ProjectGuid>8a99c039-3529-41d8-b397-38bf7e68604f</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>1_10\Problem_5.py</StartupFile>
+    <StartupFile>1_10\Problem_6.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,7 +34,7 @@
     <Compile Include="1_10\Problem_3.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="PatternGenerator.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1-10\" />

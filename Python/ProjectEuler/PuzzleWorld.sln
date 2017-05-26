@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26510.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ProjectEuler", "PythonApplication1\ProjectEuler.pyproj", "{8A99C039-3529-41D8-B397-38BF7E68604F}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CodeWars", "CodeWars\CodeWars.pyproj", "{08602ED7-DEF8-4EA4-9887-51055E350F1E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8A99C039-3529-41D8-B397-38BF7E68604F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A99C039-3529-41D8-B397-38BF7E68604F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08602ED7-DEF8-4EA4-9887-51055E350F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08602ED7-DEF8-4EA4-9887-51055E350F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
