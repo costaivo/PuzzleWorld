@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\HowOld.cs" />
     <Compile Include="Easy\SimpleKatas.cs" />
+    <Compile Include="Easy\SquareGrid.cs" />
     <Compile Include="Easy\VowelCount.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

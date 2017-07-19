@@ -28,6 +28,7 @@
     <Compile Include="1_10\Problem_2.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="1_10\Problem_X.py" />
     <Compile Include="1_10\Problem_6.py" />
     <Compile Include="1_10\Problem_5.py" />
     <Compile Include="1_10\Problem_4.py" />
@@ -37,7 +38,7 @@
     <Compile Include="PatternGenerator.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="1-10\" />
+    <Folder Include="11-20\" />
     <Folder Include="1_10\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
