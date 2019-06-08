@@ -21,15 +21,17 @@ console.log(arithmicSequence(n))
 -*************************************************************/
 
 function sumDivisbleBy( n,  p){
-    const  sum = n * (parseInt(p / n)) * ((parseInt(p / n)) + 1) / 2;
+    // n*((p/n) * (p/n)+1)/2
+    const ratio = parseInt(p / n)
+    const  sum = n * (ratio * (ratio + 1) )/ 2;
     return sum;
 }
 
-function sumOfNumbersDivisbleBy(num1,num2,n)
+function sumOfNumbersDivisbleBy(n)
 {
     n=n-1
-    return  sumDivisbleBy(num1,n)+sumDivisbleBy(num2,n)-sumDivisbleBy(num1*num2,n);
+    return  sumDivisbleBy(3,n)+sumDivisbleBy(5,n)-sumDivisbleBy(15,n);
 }
 
 
-console.log(sumOfNumbersDivisbleBy(3,5,n));
+console.log(sumOfNumbersDivisbleBy(n));
