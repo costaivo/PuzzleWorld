@@ -1,4 +1,35 @@
-PuzzleWorld
-===========
+# PuzzleWorld
 
-Contains a list of Popular Algorithms & its solutions
+Contains a list of Popular Algorithms & its solutions 
+
+## Running Kotlin Programs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
