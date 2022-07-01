@@ -1,6 +1,7 @@
 # PuzzleWorld
 
-Contains a list of Popular Algorithms & its solutions 
+
+- [Max Sum Contiguous Subarray](/easy/max-sum/readme.md)
 
 
 
